@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta name="author" content="Abdul-Quadri Mahmud Adeyemi">
+     <meta name="title" content="Built In Calculator">
+     <meta name="description" content="AQMA TECH Built In Calculator. This is a calculator that helps and allow students to calculate mathematics problem.">
+     <meta name="keywords" content="Built In Calculator">
+
+     <!----------------- Google fonts link ----------------->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,300;1,300&family=Rajdhani&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" crossorigin="anonymous">
+     
+     <title>Built In Calcolator</title>
+
+     <!--------Css Link File--------->
+     <link rel="stylesheet" href="style.css">
+
+     <!--------Script Source--------->
+     <script defer src="calculator.js"></script>
+     <script defer src="multiplication.js"></script>
+     <script defer src="selection.js"></script>
+</head>
+<body>
+     <header>
+          <div class="heading_cont">
+               <div class="heading">
+                    <h1>BUILT IN CALCULATOR & MULTIPLICATION TABLE</h1>
+               </div>
+          </div>
+     </header>
+
+     <!---------------------Main section------------------------>
+
+     <div class="container">
+          <div class="wrapper">
+               <!-- Calculator Section -->
+               <div class="calculator-section-cont">
+                    <div class="calculator-section">
+                         <div class="open_selection">
+                              <div class="open_sel">
+                                   <button class="open">Open Selection</button>
+                              </div>
+                         </div>
+                         <div class="display_cont">
+                              <div class="result"></div>
+                         </div>
+                              <div class="button_cont">
+                                   <div class="buttons">
+                                        <button class="button">CLR</button>
+                                        <button class="button">/</button>
+                                        <button class="button">*</button>
+                                        <button class="button">DEL</button>
+                                        <button class="button">7</button>
+                                        <button class="button">8</button>
+                                        <button class="button">9</button>
+                                        <button class="button">-</button>
+                                        <button class="button">4</button>
+                                        <button class="button">5</button>
+                                        <button class="button">6</button>
+                                        <button class="button">+</button>
+                                        <button class="button">3</button>
+                                        <button class="button">2</button>
+                                        <button class="button">1</button>
+                                        <button class="button">(</button>
+                                        <button id="dot" class="button">.</button>
+                                        <button id="zero" class="button">0</button>
+                                        <button id="equal" class="button">=</button>
+                                        <button class="button">)</button>
+                                   </div>
+                         </div>
+                    </div>
+               </div>
+
+               <!-----------------Multiplication table Section-------------------->
+               <div class="mult_cont">
+                    <div class="mult_pack">
+                         <div class="open_selection">
+                              <div class="open_sel">
+                                   <button class="open">Open Selections</button>
+                              </div>
+                         </div>
+                         <div class="viewContentCont">
+                              <p class="viewContent"></p>
+                         </div>
+                         <div class="input_text_cont">
+                              <div class="input_text">
+                                   <input type="text" class="input" placeholder="Enter Number" name="text"/>
+                              </div>
+                         </div>
+                         <div class="display_cont">
+                              <div class="display_wrap">
+                                   <p class="display_error">Enter A Number</p>
+                              </div>
+                         </div>
+                         <div class="button_cont">
+                              <div class="cl_en_button">
+                                   <button class="clear_input">Clear</button>
+                                   <button class="enter_number">Enter</button>
+                              </div>
+                         </div>
+                    </div>
+               </div>
+               <div class="selection_cont">
+                    <div class="selection">
+                         <div class="close_selection">
+                              <div class="close_sel">
+                                   <button class="close">Close Selections</button>
+                              </div>
+                         </div>
+                         <div class="cal_cont">
+                              <div class="cal">
+                                   <button class="cal_btn">Calculator</button>
+                              </div>
+                         </div>
+                         <div class="mul_cont">
+                              <div class="mult">
+                                   <button class="mult_btn">Multiplication</button>
+                              </div>
+                         </div>
+                    </div>
+               </div>
+          </div>
+     </div>
+</body>
+</html>
